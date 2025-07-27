@@ -8,12 +8,12 @@
 
 构建Docker镜像：
 ```bash
-docker build -t python-hello-world .
+sudo docker build -t python-hello-world .
 ```
 
 运行容器：
 ```bash
-docker run -p 3000:3000 python-hello-world
+sudo docker run -p 3000:3000 python-hello-world
 ```
 
 ### 方法2：使用Docker Compose（推荐）
